@@ -1,0 +1,211 @@
+.hmba-container {
+  height: 100% auto;
+  width: 100% auto;
+  background-color: #d9d9d9;
+}
+.header {
+  background-color: rgb(204, 0, 0);
+  height: 60px;
+  width: 100%;
+  align-content: center;
+  position: relative;
+  z-index: 1000;
+}
+.main {
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+.front-book {
+  color: rgb(204, 0, 0);
+}
+.search {
+  border: 2px solid #f1f1f1;
+  border-radius: 2px;
+  border-radius: 4px;
+  width: 30% auto;
+  background-color: #f1f1f1;
+  color: #d9d9d9;
+}
+.search input[type="text"] {
+  font-size: medium;
+  background: #f1f1f1;
+  border: none;
+  font-family: sans-serif;
+}
+.fa-search {
+  color: rgb(204, 0, 0);
+  font-size: 20px;
+}
+.fa-comment-alt {
+  color: #f1f1f1;
+  font-size: 30px;
+}
+.fa-book-open {
+  color: #f1f1f1;
+  font-size: 30px;
+}
+.fa-user-circle {
+  font-size: 30px;
+  color: #f1f1f1;
+}
+.signup {
+  color: #f1f1f1;
+  font-family: "montserrat";
+  font-size: 15px;
+  font-weight: bold;
+}
+.signup:hover {
+  color: rgb(255, 51, 51);
+  text-decoration: none;
+}
+.push:hover {
+  text-decoration: none;
+  color: rgb(255, 51, 51);
+}
+.push {
+  margin: 10px;
+}
+.far:hover {
+  color: rgb(199, 177, 177);
+}
+.fas:hover {
+  color: rgb(199, 177, 177);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+.comment {
+  float: right;
+  color: gray;
+  align-self: center;
+}
+.boxy {
+  max-width: 100%;
+  margin-right: 10px;
+  font-family: "montserrat";
+}
+.column {
+  float: left;
+  height: 60px;
+}
+
+.left {
+  width: 30%;
+}
+.left p {
+  text-align: right;
+  margin-right: 60px;
+  font-size: medium;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+p {
+  font-family: sans-serif;
+}
+
+.right {
+  width: 50%;
+}
+.right p {
+  margin-left: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flex-box {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.lessons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+p {
+  border: 2px black;
+  border-radius: 4px;
+}
+li {
+  background-color: rgb(255, 87, 26);
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 1%;
+  list-style: none;
+  width: 300px;
+  height: 50px;
+}
+li a:hover {
+  color: rgb(255, 255, 255);
+}
+li a:link {
+  text-decoration: none;
+}
+.numbercircle {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: rgb(255, 87, 26);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font: 20px "montserrat";
+  float: right;
+}
+.lesson1 p {
+  align-content: center;
+  justify-content: left;
+}
+.fa-arrow-circle-left {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.video {
+  float: left;
+}
+.overlay div {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.overlay div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

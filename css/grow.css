@@ -1,0 +1,197 @@
+.hmba-container{
+    height: 100% auto;
+    width: 100%;
+    background-color: #d9d9d9;
+    
+}
+.header{
+  background-color:rgb(204, 0, 0);
+  height: 60px;
+  width: 100%;
+  align-content: center;
+  position: fixed;
+  z-index: 1000;
+ 
+  
+  }
+.background-image{
+    background-image: url('../photo/grow.jpg');
+    background-size: cover;
+    width: 100%; 
+    height: 300px;
+}
+
+  .front-book{
+    color: rgb(204, 0, 0);
+   
+
+}
+
+.space{
+  width: 35%
+}
+
+.fa-search{
+    color:  rgb(204, 0, 0);
+    font-size: 20px;
+   
+
+}  
+.fa-comment-alt{
+    color: #f1f1f1;
+    font-size: 30px;
+    
+         
+}
+.fa-book-open{
+    color: #f1f1f1;
+    font-size: 30px;
+    
+    
+}
+.fa-user-circle{
+    font-size: 30px;
+    color: #f1f1f1;
+    
+}
+.push:hover{
+  text-decoration: none;
+  color:rgb(255, 51, 51);  
+
+}
+.push{
+  margin: 10px;
+
+}
+
+.far:hover
+{
+    color: rgb(199, 177, 177);
+}
+.fas:hover
+{
+    color: rgb(199, 177, 177);
+}
+.signup{
+  color: #f1f1f1;
+  font-family: 'montserrat';
+  font-size:12px;
+  font-weight: bold;  
+ 
+}
+.signup:hover{
+  color: rgb(255, 51, 51);
+  text-decoration: none;  
+}
+.letter{
+    color: rgb(0, 0, 0,);
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    height: 300px;
+    padding-top: 10%;
+    font-family: 'montesserat';
+    
+}
+.letter h1{
+  font-family: 'Helvetica';
+  font-weight: 900;
+  
+  
+}
+.letter p{
+  font-size: 20px;
+  font-family: 'montesserat';
+  font-weight: bold;
+}
+.green{
+  border: solid 10px;
+  position: relative;
+  top: 22px;
+  border-radius: 4px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  z-index: 1000 ;
+
+
+}
+
+
+.flex-box{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  padding: 3%;
+  top:20px;
+  justify-content: space-between;
+  position: relative;
+  border-top-width:20px;
+  border-top: solid rgb(0, 51, 0) 25px; 
+  border-radius: 4px;
+  
+}
+.row{
+      justify-content: space-between;
+      width:100%;
+      position: relative;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      
+      
+}
+.row p{
+  height: 100%;
+  color: #f1f1f1;
+  padding: 3px;
+  font-family: 'montserrat';
+}
+
+
+.top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,);
+
+}
+
+
+#main{
+  height:100% ;
+  max-width:1300px;
+  margin: 0 auto; 
+
+  
+}
+.new-card {
+  position: relative;
+}
+
+.new-card div{
+  position: absolute;
+  top: 0;
+  left:0 ;
+  right:0 ;
+  bottom:0 ;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0,0.2);
+  z-index: 2;
+}
+
+.new-card div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+

@@ -1,0 +1,251 @@
+.hmba-page{
+    
+    width: 100%;
+    background-color: rgb(166, 166, 166);
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+background-color:rgb(204, 0, 0);
+height: 60px;
+width: 100%;
+align-content: center;
+position: fixed;
+z-index: 1000;
+
+}
+.home-page{
+    background-color: rgb(204, 204, 204);
+}
+
+
+
+.slideshow{
+    background-size: cover;
+    width:96.5%; 
+    height:100%;
+    position: absolute;
+    top:0;
+    z-index: 800;
+    
+    
+}
+
+h2{
+    font-weight:bold; 
+}
+
+p{
+    font-family: 'monteserrat';
+    font-size: 20px;
+    
+}
+
+.letter{
+    color: #f1f1f1;
+    z-index: 900;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    height: 550px;
+    font-family: 'montserrat';
+    position: absolute; 
+    top: 0;
+    padding-top: 10%;
+   
+}
+
+#main{
+    height:calc(100vh + 300px) ;
+    max-width:1300px;
+    margin: 0 auto; 
+    
+    
+}
+.carousel-control-prev-icon{
+    color:rgb(64, 64, 64);
+
+}
+
+
+.row-container {
+    display: flex;
+    position: relative;
+    top: -70px;
+    right: 1.5%;
+}
+
+.card a:hover{
+  text-decoration: none;
+}
+.card a{
+    text-align: center;
+    color: #f1f1f1;
+    height: 3%;
+    font-family: 'monteserrat';
+    padding: 1% ;
+}
+
+
+
+.card .fa-user-circle{
+    color: rgb(0,0,0);
+}
+
+.card {
+    margin-left: 5%;
+    border-radius: 6px;
+    height:100%; 
+    z-index:950;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.view  {
+    height: 100%;
+    background-color:rgb(255, 51, 51); 
+}
+.about hr{
+  width: 90%;
+  display: block;
+  border-color:  rgb(255, 51, 51);
+  border-width: 4px;
+  
+ 
+  }
+
+
+  .about{
+      margin-top:30px;
+      margin-left: 70px;
+      margin-right: 70px;
+      align-self: center;
+      width:90% auto;
+      background-color:azure;
+      padding: 50px;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'montserrat';
+
+  }
+  
+  .about h1{
+      color: rgb(255, 51, 51);
+      font-family:'montserrat'; 
+     
+
+  }
+  .front-book{
+      color: rgb(204, 0, 0);
+     
+
+  }
+  .search{
+    border: 2px solid #f1f1f1;
+    border-radius: 2px;
+    border-radius: 4px;
+    width:30% auto;
+    background-color: #f1f1f1;
+    color:  #d9d9d9;  
+    
+  }
+ 
+  .fa-comment-alt{
+      color: #f1f1f1;
+      font-size: 30px;
+      
+           
+ }
+ 
+  .fa-book-open{
+      color: #f1f1f1;
+      font-size: 30px;
+      
+      
+  }
+  .fa-user-circle{
+      font-size: 30px;
+      color: #f1f1f1;
+      
+      
+
+  }
+  .signup{
+    color: #f1f1f1;
+    font-family: 'montserrat';
+    font-size:12px;
+    font-weight: bold;  
+   
+  }
+  .far:hover
+  {
+      color: rgb(199, 177, 177);
+}
+.fas:hover
+  {
+      color: rgb(199, 177, 177);
+}
+
+img{
+    color:white; 
+}
+.signup:hover{
+    color: rgb(255, 51, 51);
+    text-decoration: none;  
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.push:hover{
+    text-decoration: none;
+    color:rgb(255, 51, 51);  
+
+}
+.push{
+    margin: 10px;
+
+}
+.responsive{
+    right: 500px;
+}
+.space{
+    width: 35%
+}
+.icon{
+  
+    width:25%;
+    padding: 1%;
+
+}
+.red{
+    margin-left: 40%;
+}
+.card p{
+padding:1%;
+font-size: 14px; 
+text-align: left;
+margin-top: 3%;
+}
+
+
+.card img{
+    float: left;
+}
+
+
+
+
+
